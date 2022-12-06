@@ -36,7 +36,7 @@ colcon build --packages-select turtlebot3_walker
 ```
 cd <your_workspace_path>/ros2_ws
 source  install/setup.bash
-ros2 launch turtlebot3_walker walker.launch.py
+ros2 launch turtlebot3_walker walker.launch.py enable_recording:=true
 ```
 ## ros bag recording 
 ```
