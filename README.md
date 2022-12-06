@@ -24,3 +24,32 @@ A walker algorithm using ros2 and turtlebot waffli-pi to avoid obstacles.
     prefix turtlebot3_gazebo \
     `/share/turtlebot3_gazebo/models/
     ```
+## Build your package
+```bash
+mkdir -p <your_workspace_path>/src
+cd <your_workspace_path>/src
+git clone https://github.com/AnukritiSinghh/walker_bot.git
+cd <your_workspace_path>
+colcon build --packages-select turtlebot3_walker
+```
+## Launch 
+```
+cd <your_workspace_path>/ros2_ws
+. install/setup.bash
+ros2 launch turtlebot3_walker walker.launch.py
+```
+
+* Output
+![](results/gazebo_nav.png)
+
+## Run cppcheck and cpplint
+* The Output txt files will be saved under results folder  
+
+For cppcheck
+```bash
+sh run_cppcheck.sh
+```
+For cpplint
+```bash
+sh run_cpplint.sh 
+`````
