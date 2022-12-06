@@ -5,7 +5,7 @@ A walker algorithm using ros2 and turtlebot waffli-pi to avoid obstacles.
 
 ## Dependencies
 
-- **Ubuntu 12.04**
+- **Ubuntu 22.04**
 - **ROS2 Humble**  
 - **Turtlebot3 ROS Package**
 
