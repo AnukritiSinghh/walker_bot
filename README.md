@@ -38,6 +38,10 @@ cd <your_workspace_path>/ros2_ws
 . install/setup.bash
 ros2 launch turtlebot3_walker walker.launch.py
 ```
+## ros bag recording 
+```
+ros2 bag info walker_bag
+```
 
 * Output
 ![](results/gazebo_nav.png)
