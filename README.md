@@ -21,6 +21,6 @@ A walker algorithm using ros2 and turtlebot waffli-pi to avoid obstacles.
 3. Set up gazebo model path 
     ```bash
     export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:`ros2 pkg \
-prefix turtlebot3_gazebo \
+    prefix turtlebot3_gazebo \
 `/share/turtlebot3_gazebo/models/
     ```
